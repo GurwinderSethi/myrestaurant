@@ -9,7 +9,7 @@ const uniqueList = [
     Menu.map((curElem)=>{
      return curElem.category;
         })
-  ),
+  ),"All"
 ];
 
 console.log(uniqueList);
@@ -17,7 +17,12 @@ console.log(uniqueList);
 const Restaurant = () => {
     const [menuData,setmenuData]=useState(Menu);
     const [menuList,setMenuList]=useState(uniqueList);
+
     const filterItem = (category)=>{
+      if(category==="All"){
+        setmenuData(Menu);
+        return;
+      }
       const updatedList = Menu.filter((curElem)=>{
         return curElem.category === category;
       });
