@@ -5,7 +5,7 @@ import MenuCard from './MenuCard';
 import Navbar from './Navbar';
 
 const uniqueList = [
-  ... new Set(
+  ...new Set(
     Menu.map((curElem)=>{
      return curElem.category;
         })
