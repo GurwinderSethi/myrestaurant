@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Restaurant from './component/basics/Restaurant';
 
 const App = () => {
   return (
-    <div>Hello World !</div>
+    <>
+    <Restaurant/>
+    </>
+    
   )
 }
 
