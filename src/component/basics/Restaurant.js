@@ -12,8 +12,6 @@ const uniqueList = [
   ),"All"
 ];
 
-console.log(uniqueList);
-
 const Restaurant = () => {
     const [menuData,setmenuData]=useState(Menu);
     const [menuList,setMenuList]=useState(uniqueList);
