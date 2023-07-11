@@ -6,7 +6,7 @@ const Menu = [
       category: "breakfast",
       price: "12₹",
       description:
-        "I love Maggi realy oo yues  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+        " In India, Maggi Masala noodles carry a green dot, meaning they are specifically formulated to serve vegetarians. However, Maggi chicken noodles carry a red triangle, indicating that they are not vegetarian.This special formulation is not available in other countries, unless imported from India.",
     },
   
     {
