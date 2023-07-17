@@ -12,11 +12,11 @@ const Menu = [
     {
       id: 2,
       image: "images/allupakoida.jpg",
-      name: "allu pakoida",
+      name: "allu pakora",
       category: "evening",
       price: "20₹",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+        "Aloo pakora are soft melt-in-the-mouth fried potato fritters coated in a delicious, golden, crispy batter. It is also known as potato bajji and has always been one of my favorite tea-time snacks.",
     },
     {
       id: 3,
